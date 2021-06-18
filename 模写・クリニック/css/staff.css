@@ -1,0 +1,51 @@
+/* --- 院長・スタッフ紹介 --- */
+.director-Wraper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.directorIimg-wraper {
+    width: 200px;
+}
+.directorCareer-wraper {
+    width: 380px;
+}
+.dr-wraper p {
+    font-size: 0.84em;
+}
+.name {
+    width: 100%;
+    background-color: #6CC6C4;
+    text-align: center;
+    color: #ffffffff;
+}
+
+/* ------- width 768px 以下 -------- */
+@media screen and (max-width: 768px) {
+    .director-Wraper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .directorIimg-wraper {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .dire-img {
+        width: 200px;
+    }
+    .directorCareer-wraper {
+        width: 100%;
+    }
+    .staffImg {
+        width: 100%;
+        padding: 15px 0;
+    }
+}

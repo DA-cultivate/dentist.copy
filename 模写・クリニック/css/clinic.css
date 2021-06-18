@@ -1,0 +1,122 @@
+/* パンクず */
+.pankuzu {
+    font-size: 0.8em;
+    width: 920px;
+    margin: 20px auto 0 auto;
+}
+/* --- 医院紹介box --- */
+.clinic-wraper {
+    width: 640px;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+}
+/* タイトル */
+.clinicTitle {
+    width: 640px;
+    margin: 0 auto;
+    float: right;
+    padding: 30px 0 20px 20px;
+    box-sizing: border-box;
+    background-image: -webkit-linear-gradient(rgb(156,227,225) 0%,rgb(97, 182, 180)100%);
+    border-radius: 10px 10px 0 0;
+}
+.clinicTitle span {
+    font-size: 0.6em;
+    font-weight: 800;
+    color: #ffffffff;
+}
+/* 診療コンセプト */
+.clinic-wraper {
+    background-color: #ffffffff;
+}
+.consept-h3 {
+    border-bottom: solid 3px #6CC6C4;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.consept-span {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.conseptTitleSub {
+    font-size: 1em;
+    color: #6CC6C4;
+}
+.consept-wraper {
+    box-sizing: border-box;
+    padding: 10px;
+}
+.consept-wraper p {
+    font-size: 0.83em;
+}
+/* 休診日表 */
+.companyTable {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.companyTable table {
+    width: 100%;
+    border-top: solid 1px gray;
+    border-left: solid 1px gray;
+    border-spacing: 0;
+}
+.companyTable tr {
+    display: table-row;
+}
+.companyTable th {
+    border-bottom: solid 1px gray;
+    border-right: solid 1px gray;
+    text-align: center;
+    padding: 10px;
+}
+.textbox {
+    padding: 0;
+    margin: 0;
+}
+.textbox p {
+    font-size: 0.83em;
+}
+.textbox strong {
+    font-weight: 600;
+}
+
+/* ------- width 768px 以下 -------- */
+@media screen and (max-width: 768px) {
+    /* パンクず */
+    .pankuzu {
+        font-size: 0.7em;
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    /* --- 医院紹介box --- */
+    .clinic-wraper {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    /* タイトル */
+    .clinicTitle {
+        width: 100%;
+        margin: 0;
+        float: right;
+        padding: 10px 0 10px 20px;
+        box-sizing: border-box;
+        background-image: -webkit-linear-gradient(rgb(156,227,225) 0%,rgb(97, 182, 180)100%);
+        border-radius: 10px 10px 0 0;
+    }
+    /* 診療コンセプト */
+    .clinic-wraper {
+        background-color: #ffffffff;
+        height: auto;
+    }
+    .consept-h3 {
+        border-bottom: solid 3px #6CC6C4;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .consept-span {
+        font-size: 0.84em;
+        font-weight: 600;
+    }
+}
